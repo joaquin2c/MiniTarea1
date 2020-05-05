@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e40691f-4026-41c5-ab28-da7ed32444c4" name="Default Changelist" comment="" />
+    <list default="true" id="5e40691f-4026-41c5-ab28-da7ed32444c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/AbstractUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/AbstractUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/IUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/IUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/Inch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/Inch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/Meter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/Meter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/UnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/UnitTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

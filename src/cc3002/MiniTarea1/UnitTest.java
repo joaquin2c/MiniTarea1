@@ -16,8 +16,6 @@ public class UnitTest {
 
     @Before
     public void setUp(){
-        meterToInch=39.37;
-        inchToMeter=0.0254;
         oneMeter=new Meter(1);
         twoMeter=new Meter(2);
         fiveMeter=new Meter(5);
