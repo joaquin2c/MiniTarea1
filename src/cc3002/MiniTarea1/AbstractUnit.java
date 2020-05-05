@@ -24,9 +24,9 @@ public abstract class AbstractUnit implements IUnit{
     }
 
     public abstract String getType ();
-    public abstract String sum(IUnit u);
-    public abstract String sumInch(IUnit u);
-    public abstract String sumMeter(IUnit u);
+    public abstract IUnit sum(IUnit u);
+    public abstract IUnit sumInch(IUnit u);
+    public abstract IUnit sumMeter(IUnit u);
 
 
 }

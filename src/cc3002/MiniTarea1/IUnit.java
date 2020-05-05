@@ -4,7 +4,7 @@ public interface IUnit {
     public double getNumber();
     public boolean equals(final Object o);
     public String getType();
-    public String sum(IUnit unit);
-    public String sumInch(IUnit unit);
-    public String sumMeter(IUnit unit);
+    public IUnit sum(IUnit unit);
+    public IUnit sumInch(IUnit unit);
+    public IUnit sumMeter(IUnit unit);
 }

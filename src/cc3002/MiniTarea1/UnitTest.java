@@ -35,11 +35,10 @@ public class UnitTest {
         assertNotEquals(oneMeter,tenInch);
 
         assertTrue(1==oneMeter.getNumber());
-        assertNotEquals("inch",oneMeter.getType());
-        assertEquals("meter",oneMeter.getType());
+        assertNotEquals("Inch",oneMeter.getType());
+        assertEquals("Meter",oneMeter.getType());
         assertTrue(10==tenInch.getNumber());
-        assertNotEquals("meters",tenInch.getType());
-        assertEquals("inches",tenInch.getType());
+        assertNotEquals("Meter",tenInch.getType());
 
 
         assertTrue(oneMeter.equals(oneMeter));
@@ -50,14 +49,30 @@ public class UnitTest {
 
     @Test
     public void sumaTest(){
-        String testingNumber1="1.0 meter + 39.0 inches = 1.9906 meters";
+        Meter testingNumber1=new Meter(1.9906);
+        assertNotEquals(thirtyNineInch.sum(oneMeter),oneMeter.sum(thirtyNineInch));
         assertEquals(testingNumber1,oneMeter.sum(thirtyNineInch));
-        String testingNumber2="10.0 inches + 2.0 meters = 88.74 inches";
+
+        Inch testingNumber2=new Inch(88.74);
+        assertNotEquals( twoMeter.sum(tenInch),tenInch.sum(twoMeter));
         assertEquals( testingNumber2,tenInch.sum(twoMeter));
-        String testingNumber3="5.0 meters + 3.0 meters = 8.0 meters";
+
+
+        Meter testingNumber3=new Meter(8);
+        assertEquals(threeMeter.sum(fiveMeter),fiveMeter.sum(threeMeter));
         assertEquals(testingNumber3,fiveMeter.sum(threeMeter));
-        String testingNumber4="3.0 inches + 10.0 inches = 13.0 inches";
+
+        Inch testingNumber4=new Inch(13);
+        assertEquals(tenInch.sum(threeInch),threeInch.sum(tenInch));
         assertEquals(testingNumber4,threeInch.sum(tenInch));
+
+        
+        Meter testingNumber5=new Meter(9.9906);
+        assertEquals(testingNumber5,testingNumber1.sum(testingNumber3));
+
+        Inch testingNumber6=new Inch(101.74);
+        assertEquals(testingNumber6,testingNumber2.sum(testingNumber4));
+
     }
 
 }

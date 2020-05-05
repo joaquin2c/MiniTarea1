@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e40691f-4026-41c5-ab28-da7ed32444c4" name="Default Changelist" comment="" />
+    <list default="true" id="5e40691f-4026-41c5-ab28-da7ed32444c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/AbstractUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/AbstractUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/IUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/IUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/Inch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/Inch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/Meter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/Meter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/UnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MiniTarea1/cc3002/MiniTarea1/UnitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3002/MiniTarea1/AbstractUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3002/MiniTarea1/AbstractUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3002/MiniTarea1/IUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3002/MiniTarea1/IUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3002/MiniTarea1/Inch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3002/MiniTarea1/Inch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3002/MiniTarea1/Meter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3002/MiniTarea1/Meter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3002/MiniTarea1/UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3002/MiniTarea1/UnitTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bS1EIwnhpZJLBrkF1xpARvWCkL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,6 +43,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -117,22 +134,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588617142481" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1588625286050">
+    <state width="1877" height="176" key="GridCell.Tab.0.bottom" timestamp="1588687174180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588625286050" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1588625286050">
+    <state width="1877" height="176" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588687174180" />
+    <state width="1877" height="176" key="GridCell.Tab.0.center" timestamp="1588687174180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588625286050" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1588625286050">
+    <state width="1877" height="176" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588687174180" />
+    <state width="1877" height="176" key="GridCell.Tab.0.left" timestamp="1588687174180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588625286050" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1588625286050">
+    <state width="1877" height="176" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588687174180" />
+    <state width="1877" height="176" key="GridCell.Tab.0.right" timestamp="1588687174180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588625286050" />
+    <state width="1877" height="176" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588687174180" />
     <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588611736451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
