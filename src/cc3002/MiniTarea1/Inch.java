@@ -1,26 +1,28 @@
 package cc3002.MiniTarea1;
 
 public class Inch extends AbstractUnit{
-    public Inch(int number){
+    public Inch(double number){
         super(number);
     }
 
     @Override
     public String getType() {
-        return getNumber()==1?"inch":"inches";
+        return "Inch";
     }
 
     @Override
-    public String sum(final IUnit unit) {
+    public IUnit sum(final IUnit unit) {
         return unit.sumInch(this);
     }
 
-    public String sumInch(IUnit unit) {
-        return unit.getNumber()+" "+unit.getType()+" + "+this.getNumber()+" "+this.getType()+" = "+(this.getNumber()+unit.getNumber())+" inches";
+    public IUnit sumInch(IUnit unit) {
+        Inch I=new Inch(this.getNumber()+unit.getNumber());
+        return I;
     }
 
-    public String sumMeter(final IUnit unit) {
-        return unit.getNumber()+" "+unit.getType()+" + "+this.getNumber()+" "+this.getType()+" = "+(this.getNumber()*0.0254+unit.getNumber())+" meters";
+    public IUnit sumMeter(final IUnit unit) {
+        Meter M=new Meter(this.getNumber()*0.0254+unit.getNumber());
+        return M;
     }
 
 
